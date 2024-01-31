@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "textbox_checks",
+  "info": {
+    "singularName": "textbox-check",
+    "pluralName": "textbox-checks",
+    "displayName": "textboxCheck"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "textbox": {
+      "type": "richtext"
+    }
+  }
+}

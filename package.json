@@ -1,0 +1,39 @@
+{
+  "name": "textbox-bug-strapi-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@sklinet/strapi-plugin-tinymce": "^1.0.7",
+    "@strapi/helper-plugin": "4.19.0",
+    "@strapi/plugin-i18n": "4.19.0",
+    "@strapi/plugin-seo": "^1.9.8",
+    "@strapi/plugin-users-permissions": "4.19.0",
+    "@strapi/strapi": "4.19.0",
+    "better-sqlite3": "8.6.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "3ecec43c-49d9-4a9d-a647-bf5a0d714448"
+  }
+}
